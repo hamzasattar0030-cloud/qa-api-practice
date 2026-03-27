@@ -12,5 +12,5 @@ This repository contains practical QA examples demonstrating:
 ## Skills Demonstrated
 - Bug reporting
 - Test case writing
-- API testing
+- API testing (positive and negative scenarios)
 - Validation of expected vs actual results
