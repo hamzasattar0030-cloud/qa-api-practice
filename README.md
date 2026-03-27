@@ -73,6 +73,10 @@ https://jsonplaceholder.typicode.com/
 3. Run the requests inside the collection
 4. View test results in Postman
 
+5. ## Screenshot
+
+![Postman Test Results](postman_test_results.png)
+
 ## Author
 
 Hamza Sattar
