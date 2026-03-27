@@ -75,6 +75,8 @@ https://jsonplaceholder.typicode.com/
 
 5. ## Screenshot
 
+![Postman Test Results](postman_test_results.png)
+
 
 
 ## Author
