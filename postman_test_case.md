@@ -32,3 +32,26 @@ pm.test("Response contains a title", function () {
     const jsonData = pm.response.json();
     pm.expect(jsonData.title).to.not.be.empty;
 });
+
+## TC002 - Verify invalid post endpoint returns empty response
+
+**Tool:** Postman  
+**Method:** GET  
+**Endpoint:** /posts/9999  
+
+### Steps
+1. Open Postman
+2. Create a GET request to:
+   `https://jsonplaceholder.typicode.com/posts/9999`
+3. Click **Send**
+
+### Expected Result
+- Status code is 404 OR response is empty (`{}`)
+
+### Test Script
+```javascript
+pm.test("Status code is 404 or empty response", function () {
+    pm.expect(
+        pm.response.code === 404 || pm.response.text() === "{}"
+    ).to.be.true;
+});
